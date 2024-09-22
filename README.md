@@ -1,7 +1,5 @@
 # vue-calculator
 
-> Build a scientific calculator with vue.js
-
 ## Build Setup
 
 ``` bash
@@ -18,6 +16,8 @@ npm run build
 npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader). 
+```
+https://2dcec64a.calculator-8me.pages.dev/
 
-By [@Raphael Ugwu](https://twitter.com/fullstackmafia) from [Build a Scientific Calculator with Vue.js](//scotch.io/tutorials/build-a-scientific-calculator-with-vuejs)
+https://calculator-8me.pages.dev/
+```
