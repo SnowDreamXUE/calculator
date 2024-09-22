@@ -1,5 +1,7 @@
 <template>
   <div id="app">
+    <div class="cat">
+    </div>
     <Calculator />
   </div>
 </template>
@@ -16,14 +18,20 @@ export default {
 </script>
 
 <style>
+  .cat {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 219px;
+    height: 273px;
+    background-image: url(./assets/cat.png);
+  }
   body {
-    background: linear-gradient(to right, #85D8CE, #085078); 
+    background-color: #d1e8f1;
   }
 
   #app {
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: #2c3e50;
     display: flex;
