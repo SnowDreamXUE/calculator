@@ -1,8 +1,7 @@
 <template>
   <div id="app">
-    <div class="cat">
-    </div>
-    <Calculator />
+    <div class="cat"/>
+    <Calculator/>
   </div>
 </template>
 
@@ -24,12 +23,11 @@ export default {
     bottom: 0;
     width: 219px;
     height: 273px;
-    background-image: url(./assets/cat.png);
+    background-image: url(https://www.helloimg.com/i/2024/09/30/66fa5068affb5.png);
   }
   body {
     background-color: #d1e8f1;
   }
-
   #app {
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
     text-align: center;
