@@ -230,79 +230,116 @@ export default {
 
 <style scoped>
 .calculator {
-  width: 440px;
-  padding: 20px;
-  border-radius: 10px;
-  margin: 12% auto;
-  font-size: 16px;
-  background-color: hsl(300, 7%, 38%);
+    width: 90vw;
+    max-width: 440px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 12vh auto;
+    font-size: 16px;
+    background-color: hsl(300, 7%, 38%);
 }
 
 .input {
-  width: 420px;
-  height: 50px;
-  border-radius: 25px;
-  border: 0;
-  background-color: #333333;
-  color: #d9d9d9;
-  padding: 0 10px 0 10px;
-  margin: 10px 0 10px 0;
-  font-size: 30px;
+    width: 95%;
+    height: 50px;
+    border-radius: 25px;
+    border: 0;
+    background-color: #333333;
+    color: #d9d9d9;
+    padding: 0 10px;
+    margin: 10px 0;
+    font-size: 30px;
 }
 
 .input:focus,
 .input:active {
-  border-color: #03a9f4;
-  box-shadow: 0 0 4px #03A9F4;
-  outline: none 0;
+    border-color: #03a9f4;
+    box-shadow: 0 0 4px #03A9F4;
+    outline: none;
 }
 
 .button {
-  margin: 5px;
-  width: 63px;
-  border: 0;
-  height: 30px;
-  border-radius: 15px;
-  color: #000;
-  font-size: large;
-  background-color: #EEDAF6FF;
-  cursor: pointer;
-  outline: none;
+    margin: 5px;
+    width: 63px;
+    height: 30px;
+    border: 0;
+    border-radius: 15px;
+    color: #000;
+    font-size: 16px;
+    background-color: #EEDAF6FF;
+    cursor: pointer;
+    outline: none;
 }
 
 .mode {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .equal-sign {
-  background-color: #6A9581FF;
-  width: 133px;
+    background-color: #6A9581FF;
+    width: 133px;
 }
 
 .toggle-button {
-  border: none;
-  background-color: hsl(300, 7%, 38%);
-  cursor: pointer;
-  outline: none;
-  font-size: 1rem;
-  color: #fff;
-}
-
-button::-moz-focus-inner {
-  border-color: transparent;
+    border: none;
+    background-color: hsl(300, 7%, 38%);
+    cursor: pointer;
+    outline: none;
+    font-size: 1rem;
+    color: #fff;
 }
 
 .error-message {
-  line-height: 30px;
-  color: #ff0000;
-  font-size: 14px;
-  background-color: rgba(216, 214, 223, 0.59);
-  margin-top: 5px;
-  margin-bottom: 10px;
-  text-align: center;
-  height: 30px;
-  border-radius: 15px;
+    line-height: 30px;
+    color: #ff0000;
+    font-size: 14px;
+    background-color: rgba(216, 214, 223, 0.59);
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    height: 30px;
+    border-radius: 15px;
+}
+
+@media (max-width: 480px) {
+    .calculator {
+        font-size: 3.4vw;
+        padding: 4.3vw;
+    }
+
+    .input {
+        height: 10.7vw;
+        font-size: 6.4vw;
+        border-radius: 5.3vw;
+        padding: 0 2.1vw;
+        margin: 2.1vw 0;
+    }
+
+    .button {
+        width: 13.5vw;
+        height: 6.4vw;
+        margin: 1.1vw;
+        border-radius: 3.2vw;
+        font-size: 3.4vw;
+    }
+
+    .equal-sign {
+        width: 28.5vw;
+    }
+
+    .toggle-button {
+        font-size: 3.4vw;
+    }
+
+    .error-message {
+        line-height: 6.4vw;
+        font-size: 3vw;
+        margin-top: 1.1vw;
+        margin-bottom: 2.1vw;
+        height: 6.4vw;
+        border-radius: 3.2vw;
+    }
 }
 </style>
